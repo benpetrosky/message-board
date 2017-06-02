@@ -1,14 +1,14 @@
 # message-board
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app is designed to be a message-board for developers to pose questions to the community and others can respond to the question.  
 
 ## Planning
 
 1. Configuration/dependencies
-  * This should include ALL dependencies.
-  * It should also include WHERE they are defined and used in the project
-  * It could include a short description of what each does for you
+  * dependencies : "ember": "~2.10.0", "ember-cli-shims": "0.1.3"
+  * bower.json, package.json
+
 
 2. Specs
   * Spec 1: description: user can add a question with their name and                                    their closest attempt at solving their problem to message-board,
@@ -33,9 +33,7 @@ A short introduction of this app could easily go here.
   * Initial routes or index pages with all dependencies in Controller/index.html head
   * Template/html page for  question
   * Template/html page for about
-  * Template/html page for ... (one for each route/integrated user story)
-  * Display...
-  * Integrate feature that...
+
 
 4. UX/UI
   * Include and modify bootstrap/materialize/Sass etc.
@@ -84,7 +82,10 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+Clone this repository onto your desktop
+cd into the project directory
+run ember s in your terminal
+go to the localhost given to you in the browser of your choice
 
 ## Further Reading / Useful Links
 

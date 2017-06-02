@@ -4,8 +4,10 @@
 
 <ul>
   {{#each model as |question|}}
-    <li>{{question.question}}</li>
+    {{question-tile question=question}}
   {{/each}}
 </ul>
+
+{{new-question saveQuestion="saveQuestion"}}
 
 {{#link-to 'about'}}About{{/link-to}}

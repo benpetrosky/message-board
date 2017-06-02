@@ -1,8 +1,3 @@
 <li>
-  {{question.author}} - {{question.inquiry}}
-  <br>
-  {{question.thoughts}}
-  {{update-question question=question update="update"}}
-  <hr>
-
+{{#link-to 'question' question.id}}{{question.inquiry}}{{/link-to}}
 </li>

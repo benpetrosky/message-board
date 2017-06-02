@@ -1,0 +1,11 @@
+<h1> Welcome to Quick and Applicaple</h1>
+
+<p>Ask a question, come back and see if anyone has answered your post.</p>
+
+<ul>
+  {{#each model as |question|}}
+    <li>{{question.question}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}

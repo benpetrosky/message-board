@@ -1,8 +1,13 @@
-{{question.author}} is wondering: {{question.inquiry}}
-<br>
-<hr>
-<br>
+
 <p>
   {{question.thoughts}}
 </p>
 {{update-question question=model update="update"}}
+<hr>
+
+<h2> Answers </h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>

@@ -1,14 +1,14 @@
 { "questions": [{
     "author": "Thomas Anderson",
-    "question": "What is the matrix?",
+    "inquiry": "What is the matrix?",
     "thoughts": "I think its just a random collection of symbols... there's no method to the madness... am i right?"
   }, {
     "author": "Morpheous",
-    "question": "Why did the chicken cross the road?",
+    "inquiry": "Why did the chicken cross the road?",
     "thoughts": "I'm thinking someone laid bird food across the road so that the chickens would stop pooping on their lawn..."
   }, {
     "author": "Trinity",
-    "question": "How could you?",
+    "inquiry": "How could you?",
     "thoughts": "It's caus you're a jerk. I think."
   }]
 }

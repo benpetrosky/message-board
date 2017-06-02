@@ -11,7 +11,7 @@ export default Ember.Route.extend({
       var question = params.question;
       newAnswer.save().then(function() {
         return question.save();
-      })
+      });
       this.transitionTo('question', question);
     },
   update(question, params) {
